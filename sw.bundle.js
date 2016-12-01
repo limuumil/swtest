@@ -46,8 +46,8 @@
 
 	var CACHE_NAME = 'test-cache-v1';
 	var urlsToCache = [
-	    '/',
-	    '/assets/app.bundle.js',
+	    '/swtest/',
+	    '/swtest/assets/app.bundle.js',
 	];
 
 	self.addEventListener('install', function (event) {
